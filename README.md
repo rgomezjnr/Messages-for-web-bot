@@ -1,5 +1,5 @@
 # Messages for web bot
-Automatically send text messages using Google [Messages for web](messages.google.com/web)
+Automatically send text messages using Google [Messages for web](https://messages.google.com/web)
 
 Python Selenium script that sends bulk text messages to contacts stored in a CSV file
 
@@ -28,7 +28,7 @@ Python Selenium script that sends bulk text messages to contacts stored in a CSV
     ```
 3. Download Microsoft Edge webdriver and place in your PATH as described in [Download Microsoft Edge Driver](https://docs.microsoft.com/en-us/microsoft-edge/webdriver-chromium/?tabs=c-sharp#download-microsoft-edge-driver)
 4. Pair phone to Microsoft Edge using QR code as described in https://messages.google.com/web/authentication
-5. Download/export your contacts CSV file from [contacts.google.com](contacts.google.com), Microsoft Outlook, etc.
+5. Download/export your contacts CSV file from [contacts.google.com](https://contacts.google.com), Microsoft Outlook, etc.
 6. Edit USER_DATA_DIR in messages-for-web-bot.py. USER_DATA_DIR can be retrieved by navigating to
 [edge://version](edge://version) and checking the "Executable path" field. Note it should end in "User Data".
 7. Edit PROFILE_DIR in messages-for-web-bot.py. Usually this is "Default". 
